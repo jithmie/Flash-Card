@@ -1,0 +1,192 @@
+/* *{
+    padding:0;
+    margin:0;
+    font-family:Calibri;
+}
+body{
+    background-color: rgb(42, 167, 136);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+}
+button{
+    position: relative;
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid whitesmoke;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 40px;
+}
+button :hover{
+    background-color:gray;
+} */
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    /* background-image: url('../images/3.jpg'); */
+    /* background-image: url('../images/top-view.jpg'); */
+    /* background-color: whitesmoke; 
+    background-position: center;
+    height: 109vh;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    background-color:  rgba(7, 101, 82, 0.69);
+}
+.icon{
+    padding-top: 2%;
+    width: 100%;
+    float: flex;
+    height: 70px;
+} */
+/* .logo{
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: Arial;
+    padding-left: 5%;
+    float: left;
+    
+}
+.icon .si{
+    margin-right: 5%;
+    justify-content: right;
+    float: right;
+    background-color: whitesmoke;
+    width: 75px;
+    height: 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.icon .si a{
+    text-decoration: none;
+    color:  rgba(7, 101, 82, 0.69);
+    text-align: center;
+    font-size: 15px;
+} */
+/* 
+.icon .si:hover{
+   background-color: gray;
+} */
+/* .menu{
+    width: 400px;
+    float: flex;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: gray;
+} */
+.nav1{
+    position: fixed;
+    top: 0;
+    display: fixed;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    padding-left: 10px;
+}
+.nav1-logo p{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.content{
+    text-align: center;
+    height: auto;
+    margin: auto;
+    color: rgb(16, 12, 12);
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 9%;
+    letter-spacing: 1px;
+}
+.content .par2{
+    font-family: 'Arial';
+    font-size: 20px;
+    margin-top: 10%;
+    letter-spacing: 0.8px;
+}
+/* .content .gS{
+    width: 180px;
+    height: 50px;
+    background-color: rgba(7, 101, 82, 0.69);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 22px;
+    border-radius: 25px;
+    cursor: pointer;
+} */
+
+ .content span{
+    color: #fff;
+    font-size: 60px;
+ }
+
+
+ .content .gS{
+    width: 180px;
+    height: 50px;
+    font-weight: 400;
+    background: rgba(255,255,255,0.7);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.content .gS a{
+    text-decoration: none;
+    color: black;
+    transition: 3s ease;
+}
+.gS:hover{
+    background: rgba(255,255,255,0.3);
+}

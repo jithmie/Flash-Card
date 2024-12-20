@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+    <!-- <link rel = "stylesheet" href = "style1.css"/> -->
+    <link rel="stylesheet" href="/css/semantic.min.css">
+    <link rel="stylesheet" href="/style2.css"/>
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="nav">
+        <div class="nav-logo">
+            <p>hsalF.</p>
+        </div>
+        <div class="nav-menu" id="navMenu">
+            <ul>
+                <li><a href="home.ejs" class="link">Home</a></li>
+                <li><a href="dashboard.ejs" class="link active">Dashboard</a></li>
+                <li><a href="services.ejs" class="link">Services</a></li>
+                <li><a href="chats" class="link">Chats</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="btn" id="logOutBtn" onclick="logout()">Log Out</button>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+        </div>
+    </div>
+</div>
+<br><br>
+
+<div class="wrapper1">
+    <div class="cont">
+        <div class="flash-container">
+            <form action="/flashes/<%= flash._id %>" method="POST">
+                <div class =  "input-box">
+                    <label for="question">Enter the question here</label>
+                    <input type="text" name="question" class = "input-field" required>
+                </div>
+                <br>
+                <div class =  "input-box">
+                    <label for="answer">Enter the answer here</label>
+                    <input type="text" name="answer" class = "input-field" required>
+                </div>
+               <br>
+                <div class="input-box">
+                    <input type="submit" value="Submit" class = "submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="/public/js/semantic.min.js"></script>
+<script src="/js/script.js"></script>
+</body>
+</html>
